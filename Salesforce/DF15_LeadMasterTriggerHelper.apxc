@@ -1,0 +1,49 @@
+public class DF15_LeadMasterTriggerHelper {
+    //used to prevent recursion if needed
+    public static Boolean HAS_RUN = false;
+
+    public DF15_LeadMasterTriggerHelper(){
+        //Do stuff for instantiation
+    }
+    
+    public void execute(){
+        if(Trigger.isExecuting){
+            if(Trigger.isBefore && (Trigger.isUpdate || Trigger.isInsert)){
+                this.handleMarketingFollowUp();
+            }
+        }
+    }
+    
+    private void handleMarketingFollowUp(){
+        for(Id leadId : Trigger.newMap.keySet()){
+            Lead l = (Lead)Trigger.newMap.get(leadId);
+            if(l.Marketing_Follow_Up__c){
+                sendNotifications(l);
+                l.Marketing_Follow_Up__c = false;
+            }
+        }
+    }
+    
+    private void sendNotifications(Lead lead){
+        String message = 'Move lead to nurture campaign';
+        
+		//Build the generic map to be used for Android and iOS payloads
+		//They both use JSON and Apex essentially builds JSON 
+		//from a Map<String, Object> -- YAY!!
+        Map<String, Object> genericContent = new Map<String, Object>();
+        genericContent.put('title', 'Lead Nurture');
+        genericContent.put('defaultCampaignId', lead.Default_Campaign__c);
+        genericContent.put('message', message);
+        
+        Map<String, Object> applePayload = Messaging.PushNotificationPayload.apple(message, '', null, genericContent);
+        Messaging.PushNotification msg = new Messaging.PushNotification(applePayload);
+        msg.send('DF15_CampaignPlacementIOS', new Set<String>{lead.OwnerId});
+        
+        Map<String, Object> androidPayload = new Map<String, Object>();
+        //Add Android specific payload info
+        androidPayload.putAll(genericContent);
+        
+        msg = new Messaging.PushNotification(androidPayload);
+        msg.send('DF15_CampaignPlacementAndroid', new Set<String>{lead.OwnerId});
+    }
+}

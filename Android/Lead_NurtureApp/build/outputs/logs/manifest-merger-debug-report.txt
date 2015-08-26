@@ -1,0 +1,241 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:3:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:3:11
+	package
+		ADDED from AndroidManifest.xml:4:2
+	android:versionName
+		ADDED from AndroidManifest.xml:6:2
+	android:versionCode
+		ADDED from AndroidManifest.xml:5:2
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:installLocation
+		ADDED from AndroidManifest.xml:7:2
+uses-feature#android.hardware.type.watch
+ADDED from AndroidManifest.xml:9:2
+	android:name
+		ADDED from AndroidManifest.xml:9:16
+application
+ADDED from AndroidManifest.xml:12:2
+MERGED from df15-workspace:SalesforceSDK:unspecified:21:5
+MERGED from com.google.android.support:wearable:1.3.0:8:5
+MERGED from com.android.support:recyclerview-v7:22.0.0:22:5
+MERGED from com.android.support:support-v4:22.2.0:22:5
+MERGED from com.android.support:support-v4:22.2.0:22:5
+MERGED from com.google.android.gms:play-services-wearable:7.8.0:19:5
+MERGED from com.google.android.gms:play-services-base:7.8.0:20:5
+MERGED from com.android.support:support-v4:22.2.0:22:5
+	android:label
+		ADDED from AndroidManifest.xml:13:6
+	android:icon
+		ADDED from AndroidManifest.xml:12:15
+	android:manageSpaceActivity
+		ADDED from AndroidManifest.xml:15:3
+	android:name
+		ADDED from AndroidManifest.xml:14:3
+meta-data#com.google.android.gms.version
+ADDED from AndroidManifest.xml:17:9
+MERGED from com.google.android.gms:play-services-base:7.8.0:21:9
+	android:name
+		ADDED from AndroidManifest.xml:17:20
+	android:value
+		ADDED from AndroidManifest.xml:18:13
+activity#com.sundoginteractive.lead_nurture.MainActivity
+ADDED from AndroidManifest.xml:20:3
+	android:label
+		ADDED from AndroidManifest.xml:21:7
+	android:theme
+		ADDED from AndroidManifest.xml:22:4
+	android:name
+		ADDED from AndroidManifest.xml:20:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:23:4
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:24:5
+	android:name
+		ADDED from AndroidManifest.xml:24:13
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:25:5
+	android:name
+		ADDED from AndroidManifest.xml:25:15
+service#com.sundoginteractive.lead_nurture.DataLayerListenerService
+ADDED from AndroidManifest.xml:29:9
+	android:name
+		ADDED from AndroidManifest.xml:29:18
+intent-filter#com.google.android.gms.wearable.BIND_LISTENER
+ADDED from AndroidManifest.xml:30:13
+action#com.google.android.gms.wearable.BIND_LISTENER
+ADDED from AndroidManifest.xml:31:17
+	android:name
+		ADDED from AndroidManifest.xml:31:25
+uses-sdk
+ADDED from AndroidManifest.xml:36:5
+MERGED from df15-workspace:SalesforceSDK:unspecified:7:5
+MERGED from df15-workspace:Cordova:unspecified:25:5
+MERGED from com.google.android.support:wearable:1.3.0:4:5
+MERGED from com.android.support:recyclerview-v7:22.0.0:20:5
+MERGED from com.android.support:support-v4:22.2.0:20:5
+MERGED from com.android.support:support-v4:22.2.0:20:5
+MERGED from com.google.android.gms:play-services-wearable:7.8.0:18:5
+MERGED from com.google.android.gms:play-services-base:7.8.0:18:5
+MERGED from com.android.support:support-v4:22.2.0:20:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:37:9
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:36:15
+permission#com.sundoginteractive.lead_nurture.C2D_MESSAGE
+ADDED from AndroidManifest.xml:44:5
+	android:protectionLevel
+		ADDED from AndroidManifest.xml:45:9
+	android:name
+		ADDED from AndroidManifest.xml:44:17
+uses-permission#com.sundoginteractive.lead_nurture.C2D_MESSAGE
+ADDED from AndroidManifest.xml:47:5
+	android:name
+		ADDED from AndroidManifest.xml:47:22
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from df15-workspace:SalesforceSDK:unspecified:11:5
+	android:name
+		ADDED from df15-workspace:SalesforceSDK:unspecified:11:22
+uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
+ADDED from df15-workspace:SalesforceSDK:unspecified:12:5
+	android:name
+		ADDED from df15-workspace:SalesforceSDK:unspecified:12:22
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from df15-workspace:SalesforceSDK:unspecified:13:5
+	android:name
+		ADDED from df15-workspace:SalesforceSDK:unspecified:13:22
+uses-permission#android.permission.INTERNET
+ADDED from df15-workspace:SalesforceSDK:unspecified:14:5
+	android:name
+		ADDED from df15-workspace:SalesforceSDK:unspecified:14:22
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from df15-workspace:SalesforceSDK:unspecified:15:5
+	android:name
+		ADDED from df15-workspace:SalesforceSDK:unspecified:15:22
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from df15-workspace:SalesforceSDK:unspecified:16:5
+	android:name
+		ADDED from df15-workspace:SalesforceSDK:unspecified:16:22
+uses-permission#android.permission.WAKE_LOCK
+ADDED from df15-workspace:SalesforceSDK:unspecified:17:5
+	android:name
+		ADDED from df15-workspace:SalesforceSDK:unspecified:17:22
+uses-permission#android.permission.GET_TASKS
+ADDED from df15-workspace:SalesforceSDK:unspecified:18:5
+	android:name
+		ADDED from df15-workspace:SalesforceSDK:unspecified:18:22
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from df15-workspace:SalesforceSDK:unspecified:19:5
+	android:name
+		ADDED from df15-workspace:SalesforceSDK:unspecified:19:22
+service#com.salesforce.androidsdk.auth.AuthenticatorService
+ADDED from df15-workspace:SalesforceSDK:unspecified:24:9
+	android:exported
+		ADDED from df15-workspace:SalesforceSDK:unspecified:26:13
+	android:name
+		ADDED from df15-workspace:SalesforceSDK:unspecified:25:13
+intent-filter#android.accounts.AccountAuthenticator
+ADDED from df15-workspace:SalesforceSDK:unspecified:27:13
+action#android.accounts.AccountAuthenticator
+ADDED from df15-workspace:SalesforceSDK:unspecified:28:17
+	android:name
+		ADDED from df15-workspace:SalesforceSDK:unspecified:28:25
+meta-data#android.accounts.AccountAuthenticator
+ADDED from df15-workspace:SalesforceSDK:unspecified:31:13
+	android:resource
+		ADDED from df15-workspace:SalesforceSDK:unspecified:33:17
+	android:name
+		ADDED from df15-workspace:SalesforceSDK:unspecified:32:17
+activity#com.salesforce.androidsdk.ui.LoginActivity
+ADDED from df15-workspace:SalesforceSDK:unspecified:37:9
+	android:theme
+		ADDED from df15-workspace:SalesforceSDK:unspecified:39:13
+	android:name
+		ADDED from df15-workspace:SalesforceSDK:unspecified:38:13
+activity#com.salesforce.androidsdk.ui.PasscodeActivity
+ADDED from df15-workspace:SalesforceSDK:unspecified:42:9
+	android:theme
+		ADDED from df15-workspace:SalesforceSDK:unspecified:44:13
+	android:name
+		ADDED from df15-workspace:SalesforceSDK:unspecified:43:13
+activity#com.salesforce.androidsdk.ui.ManageSpaceActivity
+ADDED from df15-workspace:SalesforceSDK:unspecified:47:9
+	android:theme
+		ADDED from df15-workspace:SalesforceSDK:unspecified:50:13
+	android:excludeFromRecents
+		ADDED from df15-workspace:SalesforceSDK:unspecified:49:13
+	android:name
+		ADDED from df15-workspace:SalesforceSDK:unspecified:48:13
+activity#com.salesforce.androidsdk.ui.ServerPickerActivity
+ADDED from df15-workspace:SalesforceSDK:unspecified:53:9
+	android:theme
+		ADDED from df15-workspace:SalesforceSDK:unspecified:56:13
+	android:excludeFromRecents
+		ADDED from df15-workspace:SalesforceSDK:unspecified:55:13
+	android:name
+		ADDED from df15-workspace:SalesforceSDK:unspecified:54:13
+activity#com.salesforce.androidsdk.ui.AccountSwitcherActivity
+ADDED from df15-workspace:SalesforceSDK:unspecified:59:9
+	android:theme
+		ADDED from df15-workspace:SalesforceSDK:unspecified:62:13
+	android:excludeFromRecents
+		ADDED from df15-workspace:SalesforceSDK:unspecified:61:13
+	android:name
+		ADDED from df15-workspace:SalesforceSDK:unspecified:60:13
+receiver#com.salesforce.androidsdk.push.PushBroadcastReceiver
+ADDED from df15-workspace:SalesforceSDK:unspecified:68:9
+	android:exported
+		ADDED from df15-workspace:SalesforceSDK:unspecified:70:13
+	android:permission
+		ADDED from df15-workspace:SalesforceSDK:unspecified:71:13
+	android:name
+		ADDED from df15-workspace:SalesforceSDK:unspecified:69:13
+intent-filter#@string/app_package+com.google.android.c2dm.intent.RECEIVE
+ADDED from df15-workspace:SalesforceSDK:unspecified:72:13
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from df15-workspace:SalesforceSDK:unspecified:73:17
+	android:name
+		ADDED from df15-workspace:SalesforceSDK:unspecified:73:25
+category#@string/app_package
+ADDED from df15-workspace:SalesforceSDK:unspecified:75:17
+	android:name
+		ADDED from df15-workspace:SalesforceSDK:unspecified:75:27
+intent-filter#@string/app_package+com.google.android.c2dm.intent.REGISTRATION
+ADDED from df15-workspace:SalesforceSDK:unspecified:77:13
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from df15-workspace:SalesforceSDK:unspecified:78:17
+	android:name
+		ADDED from df15-workspace:SalesforceSDK:unspecified:78:25
+receiver#com.salesforce.androidsdk.push.PushService$RetryRegistrationAlarmReceiver
+ADDED from df15-workspace:SalesforceSDK:unspecified:83:9
+	android:exported
+		ADDED from df15-workspace:SalesforceSDK:unspecified:85:13
+	android:name
+		ADDED from df15-workspace:SalesforceSDK:unspecified:84:13
+receiver#com.salesforce.androidsdk.push.PushService$SFDCRegistrationRetryAlarmReceiver
+ADDED from df15-workspace:SalesforceSDK:unspecified:86:9
+	android:exported
+		ADDED from df15-workspace:SalesforceSDK:unspecified:88:13
+	android:name
+		ADDED from df15-workspace:SalesforceSDK:unspecified:87:13
+receiver#com.salesforce.androidsdk.push.PushService$UnregisterRetryAlarmReceiver
+ADDED from df15-workspace:SalesforceSDK:unspecified:89:9
+	android:exported
+		ADDED from df15-workspace:SalesforceSDK:unspecified:91:13
+	android:name
+		ADDED from df15-workspace:SalesforceSDK:unspecified:90:13
+service#com.salesforce.androidsdk.push.PushService
+ADDED from df15-workspace:SalesforceSDK:unspecified:93:9
+	android:exported
+		ADDED from df15-workspace:SalesforceSDK:unspecified:95:13
+	android:name
+		ADDED from df15-workspace:SalesforceSDK:unspecified:94:13
+activity#android.support.v7.widget.TestActivity
+ADDED from com.android.support:recyclerview-v7:22.0.0:23:9
+	android:label
+		ADDED from com.android.support:recyclerview-v7:22.0.0:25:13
+	android:name
+		ADDED from com.android.support:recyclerview-v7:22.0.0:24:13

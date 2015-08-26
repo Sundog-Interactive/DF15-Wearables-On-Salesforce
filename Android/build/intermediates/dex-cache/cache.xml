@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/craigisakson/Documents/Android Code/df15-workspace/Lead_NurtureApp/build/intermediates/exploded-aar/df15-workspace/SalesforceSDK/unspecified/jars/libs/volley_android-4.4.2_r2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="cc41ddaeb1645db24b95433179573e7979ec09ff">
+        <dex dex="/Users/craigisakson/Documents/Android Code/df15-workspace/Lead_NurtureApp/build/intermediates/pre-dexed/debug/volley_android-4.4.2_r2-31734cbe009818808c4e0f5b7bd611d7d872dc4b.jar" />
+    </item>
+    <item
+        jar="/Users/craigisakson/Documents/Android Code/df15-workspace/Lead_NurtureApp/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c0c912d58c9468b1f9d9769c8975afdf2c85d681">
+        <dex dex="/Users/craigisakson/Documents/Android Code/df15-workspace/Lead_NurtureApp/build/intermediates/pre-dexed/debug/classes-db35f1973fd14c2d09b35dabaaa6cf62d1522ebb.jar" />
+    </item>
+    <item
+        jar="/Users/craigisakson/Documents/Android Code/df15-workspace/Lead_NurtureApp/build/intermediates/exploded-aar/df15-workspace/SalesforceSDK/unspecified/jars/libs/android-junit-report-1.5.8.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="bddcb7be8b20da9701a5dde399952c667ab05866">
+        <dex dex="/Users/craigisakson/Documents/Android Code/df15-workspace/Lead_NurtureApp/build/intermediates/pre-dexed/debug/android-junit-report-1.5.8-6da8de178a2138eb402170afb2c2ea927c25d050.jar" />
+    </item>
+    <item
+        jar="/Users/craigisakson/Documents/Android Code/df15-workspace/Lead_NurtureApp/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/craigisakson/Documents/Android Code/df15-workspace/Lead_NurtureApp/build/intermediates/pre-dexed/debug/classes-3d570d28f3f7d87544ce36a6b2e1bb6a99fa7bc4.jar" />
+    </item>
+    <item
+        jar="/Users/craigisakson/Documents/Android Code/df15-workspace/Lead_NurtureApp/build/intermediates/exploded-aar/df15-workspace/SalesforceSDK/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0985e90164aeacee3c165f1b7a7b4f0dfce8e8f8">
+        <dex dex="/Users/craigisakson/Documents/Android Code/df15-workspace/Lead_NurtureApp/build/intermediates/pre-dexed/debug/classes-8f6cd40fdd35020f4845a22bffef3272fe3cfd37.jar" />
+    </item>
+    <item
+        jar="/Users/craigisakson/Documents/Android Code/df15-workspace/Lead_NurtureApp/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c6d79137693d494dee16372d3921f919eb724ced">
+        <dex dex="/Users/craigisakson/Documents/Android Code/df15-workspace/Lead_NurtureApp/build/intermediates/pre-dexed/debug/classes-ae41d0e0a8a153c33e634d0642ad60a35b1e0b32.jar" />
+    </item>
+    <item
+        jar="/Users/craigisakson/Documents/Android Code/df15-workspace/Lead_NurtureApp/build/intermediates/exploded-aar/df15-workspace/SalesforceSDK/unspecified/jars/libs/httpmime-4.3.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3202421d9425ced69919b282afa644e7ef0e8fef">
+        <dex dex="/Users/craigisakson/Documents/Android Code/df15-workspace/Lead_NurtureApp/build/intermediates/pre-dexed/debug/httpmime-4.3.2-6b0fc458b4e1a03a5cc51bb5f7e923d378e94c50.jar" />
+    </item>
+    <item
+        jar="/Users/craigisakson/Documents/Android Code/df15-workspace/Lead_NurtureApp/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c5cafb324568d954780abb858c25db7ce675ab3c">
+        <dex dex="/Users/craigisakson/Documents/Android Code/df15-workspace/Lead_NurtureApp/build/intermediates/pre-dexed/debug/classes-8c4744f2bf9ae7d24171dac9342929771dff7319.jar" />
+    </item>
+    <item
+        jar="/Users/craigisakson/Documents/Android Code/df15-workspace/Lead_NurtureApp/build/intermediates/exploded-aar/com.google.android.support/wearable/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="58b928ccbaf9090c632f278d6bd31e1ae42f2457">
+        <dex dex="/Users/craigisakson/Documents/Android Code/df15-workspace/Lead_NurtureApp/build/intermediates/pre-dexed/debug/classes-c9215ce6376363903669a3089677be4941a10fe9.jar" />
+    </item>
+    <item
+        jar="/Users/craigisakson/Documents/Android Code/df15-workspace/Lead_NurtureApp/build/intermediates/exploded-aar/df15-workspace/SalesforceSDK/unspecified/jars/libs/guava-18.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="cce0823396aa693798f8882e64213b1772032b09">
+        <dex dex="/Users/craigisakson/Documents/Android Code/df15-workspace/Lead_NurtureApp/build/intermediates/pre-dexed/debug/guava-18.0-9a3401b80616de7d46c2f06f4186acf59a495eea.jar" />
+    </item>
+    <item
+        jar="/Users/craigisakson/Documents/Android Code/df15-workspace/Lead_NurtureApp/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/craigisakson/Documents/Android Code/df15-workspace/Lead_NurtureApp/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-5a9a3919f316d1b5635edfde2a84a0d364474903.jar" />
+    </item>
+    <item
+        jar="/Users/craigisakson/Documents/Android Code/df15-workspace/Lead_NurtureApp/build/intermediates/exploded-aar/df15-workspace/SalesforceSDK/unspecified/jars/libs/apache-mime4j-0.7.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a81264fe0265ebe8fd1d8128aad06dc320de6eef">
+        <dex dex="/Users/craigisakson/Documents/Android Code/df15-workspace/Lead_NurtureApp/build/intermediates/pre-dexed/debug/apache-mime4j-0.7.2-ab6ef96b5c04cd8de3d6b81cd91e014fdab9a33b.jar" />
+    </item>
+    <item
+        jar="/Users/craigisakson/Documents/adt-bundle-mac-x86_64-20140321/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/craigisakson/Documents/Android Code/df15-workspace/Lead_NurtureApp/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-3e30ff15970d2c38fb557e360a6e93445c7b3526.jar" />
+    </item>
+    <item
+        jar="/Users/craigisakson/Documents/Android Code/df15-workspace/Lead_NurtureApp/build/intermediates/exploded-aar/df15-workspace/Cordova/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1a7828ca552643bce297010d99149a3b98aa911c">
+        <dex dex="/Users/craigisakson/Documents/Android Code/df15-workspace/Lead_NurtureApp/build/intermediates/pre-dexed/debug/classes-80b7864ba1aeb74303786e4979d779b5f25c7742.jar" />
+    </item>
+
+</items>

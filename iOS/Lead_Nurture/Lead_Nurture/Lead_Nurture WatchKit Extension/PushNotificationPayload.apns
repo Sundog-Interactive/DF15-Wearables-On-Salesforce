@@ -1,0 +1,38 @@
+{
+    "aps": {
+        "alert": {
+            "body": "Move lead to nurture campaign",
+            "title": "Lead Nurture"
+        },
+        "category": "myCategory"
+    },
+    
+    "WatchKit Simulator Actions": [
+                                   {
+                                   "title": "Assign Campaign",
+                                   "identifier": "firstButtonAction"
+                                   }
+                                   ],
+    
+    "leadName": "John Doe",
+    "leadId": "00Qi000000BMgZD",
+    "moreInfo": "This is some more information",
+    "campaigns":[
+                 {
+                 "campaignId": "701i000000108cs",
+                 "campaignName": "DF15 Campaign 1"
+                 },
+                 {
+                 "campaignId": "SFCampaignId2",
+                 "campaignName": "DF15 Campaign 2"
+                 },
+                 {
+                 "campaignId": "SFCampaignId3",
+                 "campaignName": "DF15 Campaign 3"
+                 },
+                 {
+                 "campaignId": "SFCampaignId4",
+                 "campaignName": "DF15 Campaign 4"
+                 }
+                 ]
+}

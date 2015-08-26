@@ -1,0 +1,3 @@
+trigger DF15_LeadMasterTrigger on Lead (after delete, after insert, after undelete, after update, before delete, before insert, before update) {
+	new DF15_LeadMasterTriggerHelper().execute();
+}

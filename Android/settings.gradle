@@ -1,0 +1,3 @@
+include ':Cordova', ':leadnurturewear'
+include ':Lead_NurtureApp'
+include ':SalesforceSDK'
