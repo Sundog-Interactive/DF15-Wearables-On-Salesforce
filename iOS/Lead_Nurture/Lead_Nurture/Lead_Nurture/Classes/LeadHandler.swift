@@ -25,7 +25,7 @@ class LeadHandler: NSObject, SFRestDelegate {
     
     
     func request(request: SFRestRequest?, didLoadResponse jsonResponse: AnyObject) {
-        var success = jsonResponse.objectForKey("success") as! NSArray
+        var success = jsonResponse.objectForKey("success") as! Bool
         
         //send the block back to the watch
         if let watchInfo = watchInfo {
