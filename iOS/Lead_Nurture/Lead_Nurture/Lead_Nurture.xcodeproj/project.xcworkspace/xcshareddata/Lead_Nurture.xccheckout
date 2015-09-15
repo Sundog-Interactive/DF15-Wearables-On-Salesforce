@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>CC6096D7-4BC7-4153-B3DE-EC9E0A43096F</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Lead_Nurture</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>395D60EC8F15A1308BF0255CCA5F59AA3FDB0720</key>
 		<string>https://github.com/Sundog-Interactive/DF15-Wearables-On-Salesforce.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>iOS/Lead_Nurture/Lead_Nurture/Lead_Nurture.xcodeproj</string>
+	<string>iOS/Lead_Nurture/Lead_Nurture/Lead_Nurture.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>395D60EC8F15A1308BF0255CCA5F59AA3FDB0720</key>
